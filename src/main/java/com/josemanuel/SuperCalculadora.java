@@ -1,5 +1,6 @@
 package com.josemanuel;
 
+//los import
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -12,17 +13,21 @@ import com.josemanuel.menu.ExitMenuException;
 import com.josemanuel.menu.ItemMenu;
 import com.josemanuel.menu.Menu;
 
+//clase principal
 public class SuperCalculadora 
 {
 
+    //constructor
     public SuperCalculadora() {
         sc = new Scanner(System.in);
         this.inicializaMenus();
     }
 
+    //atributos
     private Scanner sc;
     private Menu menuPrincipal;
 
+    //metodos
     public static void main( String[] args ) 
     {
         SuperCalculadora superCalculadora = new SuperCalculadora();

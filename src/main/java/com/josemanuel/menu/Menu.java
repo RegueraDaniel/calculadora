@@ -32,7 +32,7 @@ public class Menu {
         System.out.println(this.input);
 
     }
-
+//metodo con control de fallos
     public void bucle() throws ExitMenuException {
 
         
@@ -58,7 +58,7 @@ public class Menu {
             } else {
                 System.out.println("Opción no válida, intente de nuevo");
             }
-            
+           //se repite mientras sea true ; infinito? 
         } while(true);
 
     }

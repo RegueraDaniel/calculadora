@@ -6,6 +6,7 @@ import java.util.function.Function;
 
 public class FuncionArea implements Function<Scanner, Void>{
 
+    //sobrescribe metodo existente
     @Override
     public Void apply(Scanner sc) {
         
@@ -21,6 +22,7 @@ public class FuncionArea implements Function<Scanner, Void>{
 
         System.out.println("Resultado" + pBD.multiply(aBD).divide(BigDecimal.valueOf(2)).toString());
 
+        //el metodo es void, no deberia tener un return
         return null;
     }
 

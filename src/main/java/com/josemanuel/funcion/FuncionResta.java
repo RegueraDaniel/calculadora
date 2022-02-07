@@ -24,6 +24,7 @@ public class FuncionResta implements Function<Scanner, Void>{
 
         System.out.println("\nResultado: " + aBD.subtract(bBD).toString() + "\n");
 
+        //otro return en un metodo void... corregir 
         return null;
     }
 

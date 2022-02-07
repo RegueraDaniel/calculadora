@@ -14,11 +14,12 @@ public class ItemMenu {
         this.mensajeMenu = mensajeMenu;        
     }
 
+    //sobrecarga de constructor
     public ItemMenu(String mensajeMenu, Function<Scanner, Void> itemMenuFuncion) {
         this.mensajeMenu = mensajeMenu;
         this.itemMenuFuncion = itemMenuFuncion;
     }
-
+//getter y setter
     public Menu getSubMenu() {
         return subMenu;
     }
@@ -34,7 +35,7 @@ public class ItemMenu {
     public void setMensajeMenu(String mensajeMenu) {
         this.mensajeMenu = mensajeMenu;
     }
-
+//metodo
     public Function<Scanner, Void> getItemMenuFuncion() {
         return itemMenuFuncion;
     }
